@@ -1,0 +1,16 @@
+body { background: #fff; url(../img/bg1x1_fff.png); color: #5E6E65; margin: 0; }
+
+a { color: #AFBD21; text-decoration: none; }
+a:visited, a:active, a:hover { color: #AFBD21; }
+a:hover { text-decoration: underline; }
+
+#horizon { position: absolute; top: 50%; height: 1px; width: 100%; overflow: visible; }
+
+#splash { position: absolute; margin-left: -250px; left: 50%; top: -111px; background-image: url(../img/splash.png); background-repeat: no-repeat; width: 500px; height: 233px; }
+
+#splash .inner { display: block; width: 500px; height: 233px; position: relative; }
+
+#splash .inv { position: absolute; bottom: 0; left: 0; font-style: italic; }
+
+#splash .inner .links { position: absolute; bottom: 0; right: 0; }
+
