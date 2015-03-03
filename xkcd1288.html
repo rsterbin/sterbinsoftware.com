@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Bookmarklet for XKCD #1288</title>
+</head>
+<body>
+    <h1>Bookmarklet for XKCD #1288</h1>
+
+    <a href="http://xkcd.com/1288/"><img src="substitutions.png" border="0" /></a>
+
+    <p>Click and drag to enjoy your news more:</p>
+
+    <p><a href="javascript:(function(){var d=&quot;1.3.2&quot;;if(window.jQuery===undefined||window.jQuery.fn.jquery<d){var a=false;var c=document.createElement(&quot;script&quot;);c.src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/&quot;+d+&quot;/jquery.min.js&quot;;c.onload=c.onreadystatechange=function(){if(!a&&(!this.readyState||this.readyState==&quot;loaded&quot;||this.readyState==&quot;complete&quot;)){a=true;b()}};document.getElementsByTagName(&quot;head&quot;)[0].appendChild(c)}else{b()}function b(){(window.myBookmarklet=function(){var e=&quot;body,section,nav,article,aside,h1,h2,h3,h4,h5,h6,header,footer,address,main,p,hr,pre,blockquote,ol,ul,li,dl,dt,dd,figure,figcaption,div,a,em,strong,small,s,cite,q,dfn,abbr,kbd,sub,sup,i,b,u,mark,ruby,rt,rp,bdi,bdo,span,ins,del,caption,td,th,form,fieldset,legend,label,button,option,textarea,summary,nyt_headline&quot;;var h=jQuery(e).contents().filter(function(){return(this.nodeType==3&&/\S/.test(this.nodeValue))});var f={witness:&quot;this dude I know&quot;,witnesses:&quot;these dudes I know&quot;,allegedly:&quot;kinda probably&quot;,&quot;new study&quot;:&quot;Tumblr post&quot;,&quot;new studies&quot;:&quot;Tumblr posts&quot;,rebuild:&quot;avenge&quot;,rebuilt:&quot;avenged&quot;,space:&quot;spaaace&quot;,&quot;google glass&quot;:&quot;virtual boy&quot;,smartphone:&quot;pokédex&quot;,electric:&quot;atomic&quot;,senator:&quot;elf-lord&quot;,senators:&quot;elf-lords&quot;,car:&quot;cat&quot;,cars:&quot;cats&quot;,election:&quot;eating contest&quot;,elections:&quot;eating contests&quot;,&quot;congressional leaders&quot;:&quot;river spirits&quot;,&quot;congressional leader&quot;:&quot;river spirit&quot;,&quot;homeland security&quot;:&quot;homestar runner&quot;,&quot;could not be reached for comment&quot;:&quot;is guilty and everyone knows it&quot;};var g=function(i){return i.replace(/\w\S*/g,function(j){return j.charAt(0).toUpperCase()+j.substr(1).toLowerCase()})};h.each(function(p){var s=new Array;for(var o in f){s.push(o)}var q=new RegExp(&quot;\\b(&quot;+s.join(&quot;|&quot;)+&quot;)\\b&quot;,&quot;i&quot;);if(q.test(this.nodeValue)){var r=this.nodeValue;for(var o in f){var n=new RegExp(&quot;\\b&quot;+o+&quot;\\b&quot;,&quot;g&quot;);var m=new RegExp(&quot;\\b&quot;+o.toUpperCase+&quot;\\b&quot;,&quot;g&quot;);var l=new RegExp(&quot;\\b&quot;+g(o)+&quot;\\b&quot;,&quot;g&quot;);var j=new RegExp(&quot;\\b&quot;+o+&quot;\\b&quot;,&quot;gi&quot;);r=r.replace(n,f[o]);r=r.replace(m,f[o].toUpperCase);r=r.replace(l,g(f[o]));r=r.replace(j,f[o])}jQuery(this).replaceWith(document.createTextNode(r))}})})()}})();">xkcd #1288</a></p>
+
+</body>
+</html>
